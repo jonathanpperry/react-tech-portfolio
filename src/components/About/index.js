@@ -12,7 +12,7 @@ import {
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import Loader from 'react-loaders'
 
-function About() {
+const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
   useEffect(() => {
