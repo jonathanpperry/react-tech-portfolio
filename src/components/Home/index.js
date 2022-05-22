@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 import { Link } from 'react-router-dom'
 import LogoTitle from '../../assets/images/logo-j.jpeg'
 import AnimatedLetters from '../AnimatedLetters'
+
 import './index.scss'
 
 const Home = () => {
